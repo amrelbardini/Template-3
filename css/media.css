@@ -1,0 +1,19 @@
+﻿/*Media Query Fixes*/
+
+
+
+/*Mobile screen fix*/
+
+@media(max-width:767px)
+{
+    .navbar-inverse .navbar-nav>li>a {
+        padding-bottom:10px;
+        padding-top:10px;
+    }
+    .subscribe .form-inline .form-control {
+        margin:20px auto;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height:none;
+    }
+}
